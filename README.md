@@ -29,6 +29,7 @@ Durante este proyecto, se aplicon conceptos fundamentales de análisis de datos:
 📦 AluraStore
 ├── 📄 README.md
 ├── 📄 AluraStoreLatam.ipynb
+├── 📄 Recomendacion.txt
 ├── 📁 data/
 │   ├── tienda1.csv
 │   ├── tienda2.csv
@@ -38,6 +39,7 @@ Durante este proyecto, se aplicon conceptos fundamentales de análisis de datos:
     ├── ingresos_tiendas.png
     ├── productos_vendidos.png
     └── calificaciones_tiendas.png
+```
 
 ## 📁 Datos Analizados
 
