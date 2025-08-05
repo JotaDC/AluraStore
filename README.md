@@ -16,9 +16,9 @@ El Sr. Juan, dueño de la cadena **Alura Store**, quiere vender una de sus 4 tie
 Durante este proyecto, se aplicon conceptos fundamentales de análisis de datos:
 
 - ✅ Solo para Carga y manipulación de datos CSV se uso **Pandas**
-- ✅ Lenguaje de programacion (sin usar otra biblioteca) **Python**
+- ✅ Lenguaje de programacion  **Python**
 - ✅ Creación de visualizaciones con **Matplotlib**
-- ✅ Análisis de métricas clave: ingresos, productos más vendidos, opiniones de clientes y desempeño logístico
+- ✅ Análisis de métricas clave: Facturacion, productos más y menos vendidos, calificacion de clientes, desempeño logístico, Categorias mas vendidas y Ganancia.
 - ✅ Elaboración de una **recomendación basada en datos**
 
 ---
@@ -29,7 +29,7 @@ Durante este proyecto, se aplicon conceptos fundamentales de análisis de datos:
 📦 AluraStore
 ├── 📄 README.md
 ├── 📄 AluraStoreLatam.ipynb
-├── 📄 Recomendacion.txt
+├── 📄 Recomendacion.md
 ├── 📁 data/
 │   ├── tienda1.csv
 │   ├── tienda2.csv
@@ -45,31 +45,31 @@ Durante este proyecto, se aplicon conceptos fundamentales de análisis de datos:
 
 El archivo de datos incluye información de:
 
-- 🛒 Ingresos por tienda
+- 🛒 Facturacion por tienda
 - ⭐ Promedio de reseñas de clientes
-- 📦 Productos más vendidos
+- 📦 Productos más y menos vendidos
 - 🚚 Costo promedio de envío
-- 📊 Categorías más vendidas
+- 📊 Categorías más y menos vendidas
+- 📈 Ganancia
 
 ---
 
 ## 📊 Visualizaciones Incluidas
 
-Se han generado múltiples visualizaciones para facilitar la interpretación de los resultados:
+Se han generado múltiples visualizaciones para facilitar la interpretación de los resultados, algunas de ellas son:
 
 1. **Gráfico de barras** – Comparación de facturación entre tiendas  
-2. **Gráfico circular (pie chart)** – Distribución del promedio de reseñas  
-3. **Gráfico de líneas y barras horizontales** – Análisis del envío promedio por tienda  
-4. Otros gráficos según categoría, productos o tendencias (según el enfoque personalizado)
+2. **Gráfico circular (pie chart)** – Calificacion promedio por tienda 
+3. **Gráfico barras horizontales** – Costo de  del envío promedio por tienda  
+4. **Gráfico disperción** – Gananacia por tienda
 
 ---
 
 ## ✅ Recomendación Final
 
-Tras analizar los datos, se concluye que la tienda que **menos contribuye al negocio**, ya sea por baja facturación, menores reseñas positivas o altos costos logísticos, es la **[Tienda X]**.  
-Se sugiere vender esta tienda para liberar capital sin afectar significativamente el rendimiento general de la cadena Alura Store.
+Tras analizar los datos históricos de ventas, desempeño y reseñas, se concluye que la  **tienda menos eficiente**, es la **Tienda 4**.  
 
-📝 La recomendación completa se encuentra en `recommendation.txt`.
+📝 La recomendación completa se encuentra en `📄 Recomendacion.md`.
 
 ---
 
@@ -82,7 +82,6 @@ pip install pandas matplotlib
 ```
 
 Luego, abre el archivo alura_store_analysis.ipynb con Jupyter Notebook o cualquier entorno compatible para ejecutar y explorar el análisis.
-
 
 ---
 
