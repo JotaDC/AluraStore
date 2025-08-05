@@ -29,7 +29,6 @@ Durante este proyecto, se aplicon conceptos fundamentales de análisis de datos:
 📦 AluraStore
 ├── 📄 README.md
 ├── 📄 AluraStoreLatam.ipynb
-├── 📄 Recomendacion.md
 ├── 📁 data/
 │   ├── tienda1.csv
 │   ├── tienda2.csv
@@ -65,13 +64,6 @@ Se han generado múltiples visualizaciones para facilitar la interpretación de 
 
 ---
 
-## ✅ Recomendación Final
-
-Tras analizar los datos históricos de ventas, desempeño y reseñas, se concluye que la  **tienda menos eficiente**, es la **Tienda 4**.  
-
-📝 La recomendación completa se encuentra en `📄 Recomendacion.md`.
-
----
 
 ## 🚀 Requisitos para ejecutar el proyecto
 
