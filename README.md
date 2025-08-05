@@ -37,6 +37,7 @@ Durante este proyecto, se aplicon conceptos fundamentales de análisis de datos:
 └── 📁 img/
     ├── ingresos_tiendas.png
     ├── productos_vendidos.png
+    ├── ...
     └── calificaciones_tiendas.png
 ```
 
